@@ -1,21 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:job_application/pages/splash_page.dart';
-import 'package:job_application/pages/onboarding_page.dart';
+import 'package:job_application/routes.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
         fontFamily: 'Poppins',
       ),
-      debugShowCheckedModeBanner: false,
-      routes: {
-        '/': (context) => SplashPage(),
-        '/onboarding': (context) => OnboardingPage(),
-      },
+      home: Routes(),
     );
   }
 }

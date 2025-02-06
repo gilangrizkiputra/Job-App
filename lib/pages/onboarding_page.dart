@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:job_application/pages/sigin_page.dart';
 
 class OnboardingPage extends StatelessWidget {
   const OnboardingPage({super.key});
@@ -76,7 +77,13 @@ class OnboardingPage extends StatelessWidget {
                         width: 1,
                       ),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const SiginPage()),
+                      );
+                    },
                     child: Text(
                       'Sign In',
                       style: TextStyle(
