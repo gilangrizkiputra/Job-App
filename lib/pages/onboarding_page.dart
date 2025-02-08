@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:job_application/pages/sigin_page.dart';
+import 'package:job_application/pages/signup_page.dart';
 
 class OnboardingPage extends StatelessWidget {
   const OnboardingPage({super.key});
@@ -50,7 +51,13 @@ class OnboardingPage extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(66)),
                     ),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const SignupPage()),
+                      );
+                    },
                     child: Text(
                       'Get Started',
                       style: TextStyle(
