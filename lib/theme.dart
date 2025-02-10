@@ -23,3 +23,15 @@ TextStyle buttonTextStyle = const TextStyle(
   fontSize: 14,
   fontWeight: FontWeight.w500,
 );
+
+TextStyle jobNameTextStyle = const TextStyle(
+  color: Color(0xff272C2F),
+  fontSize: 16,
+  fontWeight: FontWeight.w500,
+);
+
+TextStyle companyNameTextStyle = const TextStyle(
+  color: Color(0xffB3B5C4),
+  fontSize: 14,
+  fontWeight: FontWeight.w400,
+);

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:job_application/pages/home_page.dart';
 import 'package:job_application/pages/signup_page.dart';
 import 'package:job_application/theme.dart';
 import 'package:email_validator/email_validator.dart';
@@ -136,7 +137,10 @@ class _SiginPageState extends State<SiginPage> {
                   style: TextButton.styleFrom(
                     backgroundColor: Color(0xff4141A4),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => HomePage()));
+                  },
                   child: Text(
                     'Sign In',
                     style: buttonTextStyle,
