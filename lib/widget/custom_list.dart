@@ -22,23 +22,26 @@ class CustomList extends StatelessWidget {
         ),
         SizedBox(width: 26),
         Expanded(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                jobName,
-                style: jobNameTextStyle,
-              ),
-              Text(
-                companyName,
-                style: companyNameTextStyle,
-              ),
-              SizedBox(height: 16),
-              Divider(
-                color: Color(0xffECEDF1),
-                thickness: 1,
-              )
-            ],
+          child: Padding(
+            padding: const EdgeInsets.only(top: 20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  jobName,
+                  style: jobNameTextStyle,
+                ),
+                Text(
+                  companyName,
+                  style: companyNameTextStyle,
+                ),
+                SizedBox(height: 10),
+                Divider(
+                  color: Color(0xffECEDF1),
+                  thickness: 1,
+                )
+              ],
+            ),
           ),
         )
       ],

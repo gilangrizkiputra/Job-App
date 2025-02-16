@@ -35,3 +35,15 @@ TextStyle companyNameTextStyle = const TextStyle(
   fontSize: 14,
   fontWeight: FontWeight.w400,
 );
+
+TextStyle titleJobTextStyle = const TextStyle(
+  color: Color(0xffFFFFFF),
+  fontSize: 24,
+  fontWeight: FontWeight.w700,
+);
+
+TextStyle availableTextStyle = const TextStyle(
+  color: Color(0xffFFFFFF),
+  fontSize: 16,
+  fontWeight: FontWeight.w400,
+);

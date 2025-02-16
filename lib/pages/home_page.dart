@@ -109,20 +109,17 @@ class HomePage extends StatelessWidget {
                   fontWeight: FontWeight.w500,
                   color: Color(0xff272C2F),
                 ),
-              ),
-              SizedBox(height: 16),
+              ),   
               CustomList(
                 jobName: 'Front-End Developer',
                 companyName: 'Google',
                 imageCompany: 'assets/google-icon.png',
               ),
-              SizedBox(height: 16),
               CustomList(
                 jobName: 'UI Designer',
                 companyName: 'Instagram',
                 imageCompany: 'assets/instagram-icon.png',
               ),
-              SizedBox(height: 16),
               CustomList(
                 jobName: 'Data Scientist',
                 companyName: 'Facebook',
