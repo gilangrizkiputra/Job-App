@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         fontFamily: 'Poppins',
+        scaffoldBackgroundColor: Colors.white,
       ),
       home: Routes(),
     );

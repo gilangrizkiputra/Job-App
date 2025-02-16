@@ -47,3 +47,21 @@ TextStyle availableTextStyle = const TextStyle(
   fontSize: 16,
   fontWeight: FontWeight.w400,
 );
+
+TextStyle detailJobTitleTextStyle = const TextStyle(
+  color: Color(0xff272C2F),
+  fontSize: 20,
+  fontWeight: FontWeight.w700,
+);
+
+TextStyle detailInfoTextStyle = const TextStyle(
+  color: Color(0xffB3B5C4),
+  fontSize: 14,
+  fontWeight: FontWeight.w400,
+);
+
+TextStyle messageTextStyle = const TextStyle(
+  color: Color(0xffA2A6B4),
+  fontSize: 14,
+  fontWeight: FontWeight.w400,
+);
